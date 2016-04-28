@@ -55,13 +55,4 @@ public class LinkedList {
         System.out.println("The 5th element from the end of the list is: " + p1.toString());
     }
 
-    // Method to compare two lists for the same integer elements regardless of order
-    public static void CompareLists(List one, List two){
-        if (one.containsAll(two)){
-            System.out.println("Both lists contain all the same elements.");
-        } else {
-            System.out.println("Both lists do not contain all the same elements.");
-        }
-    }
-
 }

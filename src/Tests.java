@@ -37,7 +37,7 @@ public class Tests {
         Integer [] listTwo = new Integer[] {5,2,3,1};
         List<Integer> one = new ArrayList<>(Arrays.asList(listOne));
         List<Integer> two = new ArrayList<>(Arrays.asList(listTwo));
-        LinkedList.CompareLists(one,two);
+        CompareLists.CompareLists(one,two);
     }
 
 }
